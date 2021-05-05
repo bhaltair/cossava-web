@@ -1,0 +1,172 @@
+/* 手机、小屏设备 */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
+
+/* 平板之类的宽度 1024 以下设备 */
+@media only screen and (min-width: 321px) and (max-width: 1024px) {
+}
+
+/* PC客户端或大屏幕设备: 1028px 至更大 */
+@media only screen and (min-width: 1029px) {
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+}
+.s-section-1 {
+  height: 410px;
+  background: url("./images/mobile/bg.png") 50% 50% / cover no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+
+.group4 {
+  display: none;
+}
+
+.paragraph1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 73px;
+  width: 270px;
+  height: 163px;
+  font-size: 32px;
+  font-family: SFProText-Bold, SFProText;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 41px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.box1 {
+  position: relative;
+}
+
+.outer1 {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.98);
+}
+
+.outer2 {
+  display: inline-flex;
+  align-items: center;
+  background: url("./images/logo.png") 5.3333vw 50% / 28vw 22px no-repeat;
+  position: relative;
+  height: 50px;
+}
+
+.outer1 .outer3 {
+  height: 28px;
+  background: #0e8f53;
+  box-shadow: 0px 1px 5px 0px rgba(8, 199, 181, 0.14);
+  border-radius: 6px;
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 9px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 1.8667vw;
+  padding-right: 1.8667vw;
+  position: absolute;
+  right: 16.2667vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.outer4 {
+  width: 5.3333vw;
+  height: 5.3333vw;
+  position: absolute;
+  right: 6.1333vw;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("./images/mobile/collapse.png") 50% / contain no-repeat;
+}
+
+.outer5 {
+  position: absolute;
+  top: 315px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 276px;
+  height: 42px;
+  line-height: 42px;
+  background: #0e8f53;
+  box-shadow: 0px 2px 7px 0px rgba(8, 199, 181, 0.14);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.slide .title {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide .title .word {
+  height: 23px;
+  font-size: 5.0667vw;
+  font-family: SFProDisplay-Semibold, SFProDisplay;
+  font-weight: 600;
+  color: #000000;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.slide .title .line {
+  width: 7.4667vw;
+  height: 5px;
+  background: #0e8f53;
+  box-shadow: 0px 2px 8px 0px rgba(37, 148, 74, 0.48);
+  border-radius: 26.6667vw;
+  margin-bottom: 10px;
+}
+
+.s-section-2 .box2 {
+  width: 94.6667vw;
+  height: 99px;
+  background: rgba(237, 237, 237, 0.5);
+  border-radius: 14px;
+
+  text-align: center;
+  padding: 24px 4.8vw;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.s-section-2 .box2 .word1 {
+  font-size: 3.4667vw;
+  font-family: PingFangSC-Medium, PingFang SC;
+  color: #000000;
+  line-height: 18px;
+  word-break: break-word;
+  font-weight: 500;
+}
