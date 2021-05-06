@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="page flex-col">
-      <div class="slide s-section-1">
+      <div class="slide s-section-1" id="home">
         <div class="container">
           <div class="outer1 flex-col">
             <div class="box1 flex-col">
@@ -60,9 +60,28 @@
             <br />
             Content NFTs Ecosystem
           </span>
+          <div class="nav">
+            <ul>
+              <li class="active">
+                <a href="#home">HOME</a>
+              </li>
+              <li>
+                <a href="#why">WHY</a>
+              </li>
+              <li>
+                <a href="#works">WORKS</a>
+              </li>
+              <li>
+                <a href="#team">TEAM</a>
+              </li>
+              <li>
+                <a href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="slide s-section-2">
+      <div class="slide s-section-2" id="why">
         <div class="container">
           <div class="title">
             <span class="word">What&nbsp;is&nbsp;Cassava?</span>
@@ -179,7 +198,7 @@
         </div>
       </div>
       <div class="slide s-section-4"></div>
-      <div class="slide s-section-5">
+      <div class="slide s-section-5" id="works">
         <div class="container">
           <div class="title">
             <span class="word">Cassava's Utility Scenario</span>
@@ -330,7 +349,7 @@
           </div>
         </div>
       </div>
-      <div class="slide s-section-7">
+      <div class="slide s-section-7" id="team">
         <div class="container">
           <div class="title">
             <span class="word">Cassava Team</span>
@@ -494,7 +513,7 @@
           </div>
         </div>
       </div>
-      <div class="slide s-section-9">
+      <div class="slide s-section-9" id="contact">
         <div class="container">
           <div class="title">
             <span class="word">CONTACT US</span>
@@ -512,7 +531,7 @@
       </div>
     </div>
 
-    <script src="http://code.jquery.com/jquery-1.4.1.min.js" defer></script>
+    <script src="http://code.jquery.com/jquery-1.4.1.min.js" ></script>
     <script>
       window.addEventListener("load", function () {
         window.addEventListener("scroll", function () {
@@ -526,5 +545,8 @@
         });
       });
     </script>
+
+    <script src="./main.js"></script>
+
   </body>
 </html>

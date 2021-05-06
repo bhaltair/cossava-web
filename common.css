@@ -34,3 +34,7 @@ button:active {
   display: flex;
   flex-direction: row;
 }
+
+.nav {
+  display: none;
+}

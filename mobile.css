@@ -24,6 +24,70 @@
     margin-top: 50px;
   }
 
+  .nav {
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    /* height: calc(100vh - 50px); */
+    background: rgba(0, 0, 0, .93);
+    text-align: center;
+  }
+
+  .nav.show {
+    position: fixed;
+    display: block;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    font-size: 4.8vw;
+    font-family: SFProDisplay-Medium, SFProDisplay;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 19.7333vw;
+    margin-top: 70px;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: rgba(237, 237, 237, 0.5);
+    -webkit-appearance: none;
+    outline:none;
+  }
+
+  .nav ul li a:active {
+    color: transparent;
+  }
+
+  .nav ul li.active {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav ul li.active a {
+    color: #ffffff;
+  }
+
+  .nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 9.4667vw;
+    height: 3px;
+    background: #0e8f53;
+    box-shadow: 0px 2px 8px 0px rgba(37, 148, 74, 0.48);
+    border-radius: 26.6667vw;
+    position: relative;
+    top: -20px;
+  }
+
   .group4 {
     display: none;
   }
