@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COSSAVA</title>
+    <meta name="referrer" content="never" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="./common.css" />
     <link
       rel="stylesheet"
@@ -32,8 +34,29 @@
             <div class="box1 flex-col">
               <div class="group1 flex-col">
                 <div class="outer2 flex-row">
-                  <div class="outer3 flex-col">
-                    <span class="txt1">Whitepaper</span>
+                  <div class="container">
+                    <div class="nav">
+                      <ul>
+                        <li class="active">
+                          <a href="#home">HOME</a>
+                        </li>
+                        <li>
+                          <a href="#why">WHY</a>
+                        </li>
+                        <li>
+                          <a href="#works">WORKS</a>
+                        </li>
+                        <li>
+                          <a href="#team">TEAM</a>
+                        </li>
+                        <li>
+                          <a href="#contact">CONTACT</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="outer3 flex-col">
+                      <span class="txt1">Whitepaper</span>
+                    </div>
                   </div>
                 </div>
                 <div class="outer4 flex-col"></div>
@@ -58,27 +81,8 @@
             <br />
             Decentralized
             <br />
-            Content NFTs Ecosystem
+            Content & NFTs Ecosystem
           </span>
-          <div class="nav">
-            <ul>
-              <li class="active">
-                <a href="#home">HOME</a>
-              </li>
-              <li>
-                <a href="#why">WHY</a>
-              </li>
-              <li>
-                <a href="#works">WORKS</a>
-              </li>
-              <li>
-                <a href="#team">TEAM</a>
-              </li>
-              <li>
-                <a href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
       <div class="slide s-section-2" id="why">
@@ -135,7 +139,7 @@
               <img
                 class="img5"
                 referrerpolicy="no-referrer"
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngaa444d88839c7064dc10ea766b7a916ef5eab2349ffbe755db9b2e73b61a00e6"
+                src="./images/mission-1.png"
               />
               <span class="word46">
                 Maximise the value of Africans' content IP
@@ -145,7 +149,7 @@
               <img
                 class="img4"
                 referrerpolicy="no-referrer"
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0dd5fc747d62e2e1af5cea099db78048c2e3ea5b83f5fa61b34176b846047436"
+                src="./images/mission-2.png"
               />
               <span class="info31">
                 Tap & empower the creators of high market potential
@@ -155,7 +159,7 @@
               <img
                 class="pic5"
                 referrerpolicy="no-referrer"
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng17fd4832b0b241a5ef3066c8acb9bbb87eb0ecb2a7af14c73d082f5386e1d536"
+                src="./images/mission-3.png"
               />
               <span class="word45">
                 content production infrastructure with blockchain technology
@@ -531,22 +535,7 @@
       </div>
     </div>
 
-    <script src="http://code.jquery.com/jquery-1.4.1.min.js" ></script>
-    <script>
-      window.addEventListener("load", function () {
-        window.addEventListener("scroll", function () {
-          let t = $("body, html").scrollTop(); // 目前监听的是整个body的滚动条距离
-
-          if (t > 0) {
-            $(".outer2").addClass("outer2-active");
-          } else {
-            $(".outer2").removeClass("outer2-active");
-          }
-        });
-      });
-    </script>
-
+    <script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
     <script src="./main.js"></script>
-
   </body>
 </html>
