@@ -1,623 +1,619 @@
 /* 手机、小屏设备 */
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  html,
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .page {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slide {
+    width: 100%;
+  }
+  .s-section-1 {
+    height: 410px;
+    background: url("./images/mobile/bg.png") 50% 50% / cover no-repeat;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .group4 {
+    display: none;
+  }
+
+  .paragraph1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 73px;
+    width: 270px;
+    height: 163px;
+    font-size: 32px;
+    font-family: SFProText-Bold, SFProText;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 41px;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  .box1 {
+    position: relative;
+  }
+
+  .outer1 {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.98);
+  }
+
+  .outer2 {
+    display: inline-flex;
+    align-items: center;
+    background: url("./images/logo.png") 5.3333vw 50% / 28vw 22px no-repeat;
+    position: relative;
+    height: 50px;
+  }
+
+  .outer2-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 200;
+    background-image: url("./images/mobile/logo-black.png");
+  }
+
+  .outer1 .outer3 {
+    height: 28px;
+    background: #0e8f53;
+    box-shadow: 0px 1px 5px 0px rgba(8, 199, 181, 0.14);
+    border-radius: 6px;
+    color: #ffffff;
+    line-height: 28px;
+    font-size: 9px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 1.8667vw;
+    padding-right: 1.8667vw;
+    position: absolute;
+    right: 16.2667vw;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .outer4 {
+    width: 5.3333vw;
+    height: 5.3333vw;
+    position: absolute;
+    right: 6.1333vw;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("./images/mobile/collapse.png") 50% / contain no-repeat;
+  }
+
+  .outer2-active + .outer4 {
+    background-image: url("./images/mobile/collapse-black.png");
+    position: fixed;
+    right: 5.3333vw;
+    top: 6.1333vw;
+    z-index: 200;
+  }
+
+  .outer5 {
+    position: absolute;
+    top: 315px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 276px;
+    height: 42px;
+    line-height: 42px;
+    background: #0e8f53;
+    box-shadow: 0px 2px 7px 0px rgba(8, 199, 181, 0.14);
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .slide .title {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slide .title .word {
+    height: 23px;
+    font-size: 5.0667vw;
+    font-family: SFProDisplay-Semibold, SFProDisplay;
+    font-weight: 600;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .slide .title .line {
+    width: 7.4667vw;
+    height: 5px;
+    background: #0e8f53;
+    box-shadow: 0px 2px 8px 0px rgba(37, 148, 74, 0.48);
+    border-radius: 26.6667vw;
+    margin-bottom: 10px;
+  }
+
+  .s-section-2 .box2 {
+    width: 94.6667vw;
+    height: 99px;
+    background: rgba(237, 237, 237, 0.5);
+    border-radius: 14px;
+
+    text-align: center;
+    padding: 24px 4.8vw;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+
+  .s-section-2 .box2 .word1 {
+    font-size: 3.4667vw;
+    font-family: PingFangSC-Medium, PingFang SC;
+    color: #000000;
+    line-height: 18px;
+    word-break: break-word;
+    font-weight: 500;
+  }
+
+  .what-is {
+    padding-left: 6.6667vw;
+    padding-right: 4.5333vw;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-is .box3,
+  .what-is .box8 {
+    flex-direction: column;
+  }
+
+  .what-is .box3 .box5,
+  .what-is .box3 .box7,
+  .what-is .box8 .bd2,
+  .what-is .box8 .bd4 {
+    background: url("./images/mobile/creators.png") left 50% /12.8vw 13.8667vw no-repeat;
+    padding-left: 16.8vw;
+    word-break: break-all;
+    margin-bottom: 28px;
+    background-position-x: -2.1333vw;
+
+    background-position-x: -3.1333vw;
+    background-size: 21.4vw;
+    background-position-y: -2.3333vw;
+  }
+
+  .what-is .box3 .box7 {
+    background-image: url("./images/mobile/users.png");
+  }
+  .what-is .box8 .bd2 {
+    background-image: url("./images/mobile/opportunities.png");
+  }
+  .what-is .box8 .bd4 {
+    background-image: url("./images/mobile/platforms.png");
+  }
+
+  .what-is .box3 .box5 span:nth-of-type(1),
+  .what-is .box3 .box7 span:nth-of-type(1),
+  .what-is .box8 .bd2 span:nth-of-type(1),
+  .what-is .box8 .bd4 span:nth-of-type(1) {
+    font-size: 4vw;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 4px;
+  }
+
+  .what-is .box3 .box5 span:nth-of-type(2),
+  .what-is .box3 .box7 span:nth-of-type(2),
+  .what-is .box8 .bd2 span:nth-of-type(2),
+  .what-is .box8 .bd4 span:nth-of-type(2) {
+    font-size: 3.4667vw;
+    font-family: SFProDisplay-Regular, SFProDisplay;
+    font-weight: 400;
+    color: #6f7781;
+    line-height: 4vw;
+  }
+
+  .mission {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mission > div {
+    width: 30.4vw;
+    height: 157px;
+    background: url("./images/mobile/1@2x.png") left top / cover no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .mission .outer25 {
+    background: url("./images/mobile/2@2x.png") left top / cover no-repeat;
+  }
+  .mission .outer24 {
+    background: url("./images/mobile/3@2x.png") left top / cover no-repeat;
+  }
+
+  .mission > div img {
+    display: none;
+  }
+
+  .mission > div span {
+    width: 24.8vw;
+    height: 42px;
+    font-size: 2.9333vw;
+    font-weight: 500;
+    color: #222222;
+    line-height: 14px;
+    margin-top: 90px;
+    word-break: break-all;
+  }
+
+  .s-section-2 {
+    z-index: 100;
+  }
+  .s-section-3 {
+    height: 280px;
+    background: #0e8f53;
+    position: relative;
+    margin-top: -80px;
+  }
+
+  .s-section-3 h3 {
+    width: 88.8vw;
+    margin: 0 auto;
+    height: 46px;
+    font-size: 5.0667vw;
+    font-size: 19px;
+    font-family: SFProDisplay-Medium, SFProDisplay;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 23px;
+    margin-top: 100px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .s-section-3 .container > div {
+    overflow-x: scroll;
+  }
+
+  .s-section-3 .container > div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .s-section-3 .mod1 {
+    display: inline-flex;
+    margin-left: 2.6667vw;
+    margin-top: 20px;
+  }
+
+  .s-section-3 .mod1 > div {
+    width: 24.2667vw;
+    height: 92px;
+    margin-right: 2.6667vw;
+    background: rgba(0, 0, 0, 0.08) url("./images/mobile/music.png") center
+      5.8667vw / 32px 32px no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-section-3 .mod1 > div span {
+    height: 14px;
+    font-size: 2.9333vw;
+    font-size: 11px;
+    font-family: Alibaba-PuHuiTi-M, Alibaba-PuHuiTi;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 14px;
+    margin-top: 40px;
+  }
+
+  .s-section-3 .mod1 .bd5 {
+    background-image: url("./images/mobile/video.png");
+  }
+  .s-section-3 .mod1 .bd6 {
+    background-image: url("./images/mobile/video.png");
+  }
+  .s-section-3 .mod1 .bd7 {
+    background-image: url("./images/mobile/media.png");
+  }
+  .s-section-3 .mod1 .bd8 {
+    background-image: url("./images/mobile/animation.png");
+  }
+  .s-section-3 .mod1 .bd9 {
+    background-image: url("./images/mobile/art.png");
+  }
+
+  .s-section-4 {
+    height: 230px;
+    background: url("./images/mobile/s-section-4.png") center / 100% 230px
+      no-repeat;
+  }
+
+  .s-section-5 {
+    padding-bottom: 80px;
+  }
+
+  .s-section-5 .utility {
+    width: 94.6667vw;
+    height: 90px;
+    background: #ffffff;
+    box-shadow: 0px 11px 30px 0px rgba(0, 25, 57, 0.07);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 13.3333vw;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .s-section-5 .utility h3 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+  .s-section-5 .utility p {
+    width: 78.1333vw;
+    height: 28px;
+    font-size: 12px;
+    font-family: SFProDisplay-Regular, SFProDisplay;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.7);
+    line-height: 14px;
+  }
+
+  .s-section-5 .utility img {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 7.2vw;
+    height: 7.2vw;
+  }
+
+  .s-section-5 .phone > img {
+    width: 55.4667vw;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+  }
+
+  .s-section-6 .s-section-6-bd {
+    display: none;
+  }
+
+  .s-section-6 {
+    height: 728px;
+    background: url("./images/mobile/s-section-6.png") center / cover no-repeat;
+    position: relative;
+  }
+
+  .s-section-6 .logo {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .s-section-6 .logo span {
+    height: 33px;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 32px;
+    position: relative;
+    top: -30px;
+  }
+
+  .s-section-7 .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4.2667vw;
+    padding-right: 4.2667vw;
+    justify-content: space-between;
+  }
+
+  .s-section-7 .flex-row .flex-col {
+    width: 44.5333vw;
+    /* height: 278px; */
+    background: #ffffff url("./images/mobile/team-1.png") center top / 167px
+      no-repeat;
+    padding-top: 167px;
+    word-break: break-all;
+    margin-bottom: 10px;
+
+    box-shadow: 0px 7px 19px 0px rgba(0, 25, 57, 0.07);
+    border-radius: 8px;
+  }
+
+  .s-section-7 .flex-row .flex-col:nth-of-type(2) {
+    background-image: url("./images/mobile/team-2.png");
+  }
+
+  .s-section-7 .flex-row .flex-col:nth-of-type(3) {
+    background-image: url("./images/mobile/team-3.png");
+  }
+
+  .s-section-7 .flex-row .flex-col:nth-of-type(4) {
+    background-image: url("./images/mobile/team-4.png");
+  }
+
+  .s-section-7 .flex-row.box20 .flex-col:nth-of-type(1) {
+    background-image: url("./images/mobile/team-5.png");
+  }
+
+  .s-section-7 .flex-row.box20 .flex-col:nth-of-type(2) {
+    background-image: url("./images/mobile/team-6.png");
+  }
+
+  .s-section-7 .flex-row.box20 .flex-col:nth-of-type(3) {
+    background-image: url("./images/mobile/team-7.png");
+  }
+
+  .s-section-7 .flex-row.box20 .flex-col:nth-of-type(4) {
+    background-image: url("./images/mobile/team-8.png");
+  }
+
+  .s-section-7 .flex-row .flex-col span {
+    padding: 0 2.1333vw;
+  }
+  .s-section-7 .flex-row .flex-col span:nth-of-type(1) {
+    height: 16px;
+    font-size: 13px;
+    font-family: Helvetica;
+    color: #222222;
+    line-height: 16px;
+    margin-bottom: 4px;
+    margin-top: 9px;
+  }
+  .s-section-7 .flex-row .flex-col span:nth-of-type(2) {
+    height: 12px;
+    font-size: 9px;
+    font-family: Helvetica;
+    color: #999999;
+    line-height: 11px;
+    margin-bottom: 9px;
+  }
+  .s-section-7 .flex-row .flex-col span:nth-of-type(3) {
+    /* height: 53px; */
+    font-size: 10px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.8);
+    line-height: 13px;
+    padding-bottom: 10px;
+  }
+
+  .s-section-8 .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4.8vw;
+    padding-right: 4.8vw;
+  }
+  .s-section-8 .flex-col {
+    width: 43.7333vw;
+    align-items: center;
+    word-break: break-all;
+  }
+
+  .s-section-8 .flex-col img {
+    width: 28vw;
+    height: 28vw;
+  }
+
+  .s-section-8 .flex-col span:nth-of-type(1) {
+    height: 17px;
+    font-size: 13px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #222222;
+    line-height: 17px;
+    margin-top: 6px;
+    padding: 0 8vw;
+  }
+
+  .s-section-8 .flex-col span:nth-of-type(2) {
+    height: 53px;
+    font-size: 9px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.8);
+    line-height: 13px;
+    margin-top: 6px;
+    padding: 0 4vw;
+    text-align: center;
+  }
+
+  .s-section-9 .bd {
+    width: 88.2667vw;
+
+    background: url("./images/mobile/map.png") center top / contain no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .s-section-9 .bd h6 {
+    font-size: 5.3333vw;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #222222;
+    line-height: 7.4667vw;
+    margin-top: 5.6vw;
+  }
+
+  .s-section-9 .bd ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .s-section-9 .bd ul li {
+    width: 94.6667vw;
+    height: 24vw;
+    background-position: left center;
+    background-size: cover;
+    line-height: 24vw;
+    text-align: center;
+
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #222222;
+  }
+
+  .s-section-9 .bd ul li:nth-of-type(1) {
+    background-image: url("./images/mobile/telegram.png");
+    margin-top: 10.6667vw;
+  }
+
+  .s-section-9 .bd ul li:nth-of-type(2) {
+    background-image: url("./images/mobile/twitter.png");
+    margin-top: 2.6667vw;
+  }
+
+  .s-section-9 p {
+    height: 25px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 0.5);
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 
 /* 平板之类的宽度 1024 以下设备 */
 @media only screen and (min-width: 321px) and (max-width: 1024px) {
 }
 
-/* PC客户端或大屏幕设备: 1028px 至更大 */
-@media only screen and (min-width: 1029px) {
-}
-
-html,
-body {
-  width: 100%;
-}
-
-.container {
-  width: 100%;
-}
-
-.page {
-  width: 100%;
-  overflow: hidden;
-}
-
-.slide {
-  width: 100%;
-}
-.s-section-1 {
-  height: 410px;
-  background: url("./images/mobile/bg.png") 50% 50% / cover no-repeat;
-  position: relative;
-  margin-top: 50px;
-}
-
-.group4 {
-  display: none;
-}
-
-.paragraph1 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 73px;
-  width: 270px;
-  height: 163px;
-  font-size: 32px;
-  font-family: SFProText-Bold, SFProText;
-  font-weight: bold;
-  color: #ffffff;
-  line-height: 41px;
-  word-break: break-word;
-  text-align: center;
-}
-
-.box1 {
-  position: relative;
-}
-
-.outer1 {
-  position: absolute;
-  left: 0;
-  top: -50px;
-  width: 100%;
-  height: 50px;
-  background: rgba(0, 0, 0, 0.98);
-}
-
-.outer2 {
-  display: inline-flex;
-  align-items: center;
-  background: url("./images/logo.png") 5.3333vw 50% / 28vw 22px no-repeat;
-  position: relative;
-  height: 50px;
-}
-
-.outer2-active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 1);
-  z-index: 200;
-  background-image: url("./images/mobile/logo-black.png");
-}
-
-.outer1 .outer3 {
-  height: 28px;
-  background: #0e8f53;
-  box-shadow: 0px 1px 5px 0px rgba(8, 199, 181, 0.14);
-  border-radius: 6px;
-  color: #ffffff;
-  line-height: 28px;
-  font-size: 9px;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #ffffff;
-  text-align: center;
-  padding-left: 1.8667vw;
-  padding-right: 1.8667vw;
-  position: absolute;
-  right: 16.2667vw;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.outer4 {
-  width: 5.3333vw;
-  height: 5.3333vw;
-  position: absolute;
-  right: 6.1333vw;
-  top: 50%;
-  transform: translateY(-50%);
-  background: url("./images/mobile/collapse.png") 50% / contain no-repeat;
-}
-
-.outer2-active + .outer4 {
-  background-image: url("./images/mobile/collapse-black.png");
-  position: fixed;
-  right: 5.3333vw;
-  top: 6.1333vw;
-  z-index: 200;
-}
-
-.outer5 {
-  position: absolute;
-  top: 315px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 276px;
-  height: 42px;
-  line-height: 42px;
-  background: #0e8f53;
-  box-shadow: 0px 2px 7px 0px rgba(8, 199, 181, 0.14);
-  border-radius: 6px;
-  font-size: 13px;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #ffffff;
-  text-align: center;
-}
-
-.slide .title {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.slide .title .word {
-  height: 23px;
-  font-size: 5.0667vw;
-  font-family: SFProDisplay-Semibold, SFProDisplay;
-  font-weight: 600;
-  color: #000000;
-  line-height: 23px;
-  margin-bottom: 10px;
-}
-
-.slide .title .line {
-  width: 7.4667vw;
-  height: 5px;
-  background: #0e8f53;
-  box-shadow: 0px 2px 8px 0px rgba(37, 148, 74, 0.48);
-  border-radius: 26.6667vw;
-  margin-bottom: 10px;
-}
-
-.s-section-2 .box2 {
-  width: 94.6667vw;
-  height: 99px;
-  background: rgba(237, 237, 237, 0.5);
-  border-radius: 14px;
-
-  text-align: center;
-  padding: 24px 4.8vw;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 8px;
-}
-
-.s-section-2 .box2 .word1 {
-  font-size: 3.4667vw;
-  font-family: PingFangSC-Medium, PingFang SC;
-  color: #000000;
-  line-height: 18px;
-  word-break: break-word;
-  font-weight: 500;
-}
-
-.what-is {
-  padding-left: 6.6667vw;
-  padding-right: 4.5333vw;
-  margin-top: 24px;
-  display: flex;
-  flex-direction: column;
-}
-
-.what-is .box3,
-.what-is .box8 {
-  flex-direction: column;
-}
-
-.what-is .box3 .box5,
-.what-is .box3 .box7,
-.what-is .box8 .bd2,
-.what-is .box8 .bd4 {
-  background: url("./images/mobile/creators.png") left 50% /12.8vw 13.8667vw no-repeat;
-  padding-left: 16.8vw;
-  word-break: break-all;
-  margin-bottom: 28px;
-  background-position-x: -2.1333vw;
-
-  background-position-x: -3.1333vw;
-  background-size: 21.4vw;
-  background-position-y: -2.3333vw;
-}
-
-.what-is .box3 .box7 {
-  background-image: url("./images/mobile/users.png");
-}
-.what-is .box8 .bd2 {
-  background-image: url("./images/mobile/opportunities.png");
-}
-.what-is .box8 .bd4 {
-  background-image: url("./images/mobile/platforms.png");
-}
-
-.what-is .box3 .box5 span:nth-of-type(1),
-.what-is .box3 .box7 span:nth-of-type(1),
-.what-is .box8 .bd2 span:nth-of-type(1),
-.what-is .box8 .bd4 span:nth-of-type(1) {
-  font-size: 4vw;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #222222;
-  margin-bottom: 4px;
-}
-
-.what-is .box3 .box5 span:nth-of-type(2),
-.what-is .box3 .box7 span:nth-of-type(2),
-.what-is .box8 .bd2 span:nth-of-type(2),
-.what-is .box8 .bd4 span:nth-of-type(2) {
-  font-size: 3.4667vw;
-  font-family: SFProDisplay-Regular, SFProDisplay;
-  font-weight: 400;
-  color: #6f7781;
-  line-height: 4vw;
-}
-
-.mission {
-  display: flex;
-  justify-content: space-around;
-}
-
-.mission > div {
-  width: 30.4vw;
-  height: 157px;
-  background: url("./images/mobile/1@2x.png") left top / cover no-repeat;
-  display: flex;
-  align-items: center;
-}
-
-.mission .outer25 {
-  background: url("./images/mobile/2@2x.png") left top / cover no-repeat;
-}
-.mission .outer24 {
-  background: url("./images/mobile/3@2x.png") left top / cover no-repeat;
-}
-
-.mission > div img {
-  display: none;
-}
-
-.mission > div span {
-  width: 24.8vw;
-  height: 42px;
-  font-size: 2.9333vw;
-  font-weight: 500;
-  color: #222222;
-  line-height: 14px;
-  margin-top: 90px;
-  word-break: break-all;
-}
-
-.s-section-2 {
-  z-index: 100;
-}
-.s-section-3 {
-  height: 280px;
-  background: #0e8f53;
-  position: relative;
-  margin-top: -80px;
-}
-
-.s-section-3 h3 {
-  width: 88.8vw;
-  margin: 0 auto;
-  height: 46px;
-  font-size: 5.0667vw;
-  font-size: 19px;
-  font-family: SFProDisplay-Medium, SFProDisplay;
-  font-weight: 500;
-  color: #ffffff;
-  line-height: 23px;
-  margin-top: 100px;
-
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-}
-
-.s-section-3 .container > div {
-  overflow-x: scroll;
-}
-
-.s-section-3 .container > div::-webkit-scrollbar {
-  display: none;
-}
-
-.s-section-3 .mod1 {
-  display: inline-flex;
-  margin-left: 2.6667vw;
-  margin-top: 20px;
-}
-
-.s-section-3 .mod1 > div {
-  width: 24.2667vw;
-  height: 92px;
-  margin-right: 2.6667vw;
-  background: rgba(0, 0, 0, 0.08) url("./images/mobile/music.png") center
-    5.8667vw / 32px 32px no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.s-section-3 .mod1 > div span {
-  height: 14px;
-  font-size: 2.9333vw;
-  font-size: 11px;
-  font-family: Alibaba-PuHuiTi-M, Alibaba-PuHuiTi;
-  font-weight: normal;
-  color: #ffffff;
-  line-height: 14px;
-  margin-top: 40px;
-}
-
-.s-section-3 .mod1 .bd5 {
-  background-image: url("./images/mobile/video.png");
-}
-.s-section-3 .mod1 .bd6 {
-  background-image: url("./images/mobile/video.png");
-}
-.s-section-3 .mod1 .bd7 {
-  background-image: url("./images/mobile/media.png");
-}
-.s-section-3 .mod1 .bd8 {
-  background-image: url("./images/mobile/animation.png");
-}
-.s-section-3 .mod1 .bd9 {
-  background-image: url("./images/mobile/art.png");
-}
-
-.s-section-4 {
-  height: 230px;
-  background: url("./images/mobile/s-section-4.png") center / 100% 230px
-    no-repeat;
-}
-
-.s-section-5 {
-  padding-bottom: 80px;
-}
-
-.s-section-5 .utility {
-  width: 94.6667vw;
-  height: 90px;
-  background: #ffffff;
-  box-shadow: 0px 11px 30px 0px rgba(0, 25, 57, 0.07);
-  border-radius: 10px;
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-left: 13.3333vw;
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.s-section-5 .utility h3 {
-  margin-bottom: 4px;
-  margin-top: 4px;
-}
-.s-section-5 .utility p {
-  width: 78.1333vw;
-  height: 28px;
-  font-size: 12px;
-  font-family: SFProDisplay-Regular, SFProDisplay;
-  font-weight: 400;
-  color: rgba(34, 34, 34, 0.7);
-  line-height: 14px;
-}
-
-.s-section-5 .utility img {
-  position: absolute;
-  left: 10px;
-  top: 20px;
-  width: 7.2vw;
-  height: 7.2vw;
-}
-
-.s-section-5 .phone > img {
-  width: 55.4667vw;
-  margin: 0 auto;
-  display: block;
-  margin-top: 40px;
-}
-
-.s-section-6 .s-section-6-bd {
-  display: none;
-}
-
-.s-section-6 {
-  height: 728px;
-  background: url("./images/mobile/s-section-6.png") center / cover no-repeat;
-  position: relative;
-}
-
-.s-section-6 .logo {
-  position: absolute;
-  top: -90px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.s-section-6 .logo span {
-  height: 33px;
-  font-size: 20px;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #ffffff;
-  line-height: 32px;
-  position: relative;
-  top: -30px;
-}
-
-.s-section-7 .flex-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 4.2667vw;
-  padding-right: 4.2667vw;
-  justify-content: space-between;
-}
-
-.s-section-7 .flex-row .flex-col {
-  width: 44.5333vw;
-  /* height: 278px; */
-  background: #ffffff url("./images/mobile/team-1.png") center top / 167px
-    no-repeat;
-  padding-top: 167px;
-  word-break: break-all;
-  margin-bottom: 10px;
-
-  box-shadow: 0px 7px 19px 0px rgba(0, 25, 57, 0.07);
-  border-radius: 8px;
-}
-
-.s-section-7 .flex-row .flex-col:nth-of-type(2) {
-  background-image: url("./images/mobile/team-2.png");
-}
-
-.s-section-7 .flex-row .flex-col:nth-of-type(3) {
-  background-image: url("./images/mobile/team-3.png");
-}
-
-.s-section-7 .flex-row .flex-col:nth-of-type(4) {
-  background-image: url("./images/mobile/team-4.png");
-}
-
-.s-section-7 .flex-row.box20 .flex-col:nth-of-type(1) {
-  background-image: url("./images/mobile/team-5.png");
-}
-
-.s-section-7 .flex-row.box20 .flex-col:nth-of-type(2) {
-  background-image: url("./images/mobile/team-6.png");
-}
-
-.s-section-7 .flex-row.box20 .flex-col:nth-of-type(3) {
-  background-image: url("./images/mobile/team-7.png");
-}
-
-.s-section-7 .flex-row.box20 .flex-col:nth-of-type(4) {
-  background-image: url("./images/mobile/team-8.png");
-}
-
-.s-section-7 .flex-row .flex-col span {
-  padding: 0 2.1333vw;
-}
-.s-section-7 .flex-row .flex-col span:nth-of-type(1) {
-  height: 16px;
-  font-size: 13px;
-  font-family: Helvetica;
-  color: #222222;
-  line-height: 16px;
-  margin-bottom: 4px;
-  margin-top: 9px;
-}
-.s-section-7 .flex-row .flex-col span:nth-of-type(2) {
-  height: 12px;
-  font-size: 9px;
-  font-family: Helvetica;
-  color: #999999;
-  line-height: 11px;
-  margin-bottom: 9px;
-}
-.s-section-7 .flex-row .flex-col span:nth-of-type(3) {
-  /* height: 53px; */
-  font-size: 10px;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
-  color: rgba(34, 34, 34, 0.8);
-  line-height: 13px;
-  padding-bottom: 10px;
-}
-
-.s-section-8 .flex-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 4.8vw;
-  padding-right: 4.8vw;
-}
-.s-section-8 .flex-col {
-  width: 43.7333vw;
-  align-items: center;
-  word-break: break-all;
-}
-
-.s-section-8 .flex-col img {
-  width: 28vw;
-  height: 28vw;
-}
-
-.s-section-8 .flex-col span:nth-of-type(1) {
-  height: 17px;
-  font-size: 13px;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #222222;
-  line-height: 17px;
-  margin-top: 6px;
-  padding: 0 8vw;
-}
-
-.s-section-8 .flex-col span:nth-of-type(2) {
-  height: 53px;
-  font-size: 9px;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
-  color: rgba(34, 34, 34, 0.8);
-  line-height: 13px;
-  margin-top: 6px;
-  padding: 0 4vw;
-  text-align: center;
-}
-
-.s-section-9 .bd {
-  width: 88.2667vw;
-
-  background: url("./images/mobile/map.png") center top / contain no-repeat;
-  margin: 0 auto;
-  text-align: center;
-  overflow: hidden;
-}
-
-.s-section-9 .bd h6 {
-  font-size: 5.3333vw;
-  font-family: PingFangSC-Semibold, PingFang SC;
-  font-weight: 600;
-  color: #222222;
-  line-height: 7.4667vw;
-  margin-top: 5.6vw;
-}
-
-.s-section-9 .bd ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.s-section-9 .bd ul li {
-  width: 94.6667vw;
-  height: 24vw;
-  background-position: left center;
-  background-size: cover;
-  line-height: 24vw;
-  text-align: center;
-
-  font-size: 16px;
-  font-family: Helvetica;
-  color: #222222;
-}
-
-.s-section-9 .bd ul li:nth-of-type(1) {
-  background-image: url("./images/mobile/telegram.png");
-  margin-top: 10.6667vw;
-}
-
-.s-section-9 .bd ul li:nth-of-type(2) {
-  background-image: url("./images/mobile/twitter.png");
-  margin-top: 2.6667vw;
-}
-
-.s-section-9 p {
-  height: 25px;
-  font-size: 12px;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
-  color: rgba(51, 51, 51, 0.5);
-  line-height: 25px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-}
