@@ -4,9 +4,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "upload": "node upload/cos.js"
   },
   "devDependencies": {
+    "dotenv": "^9.0.0",
     "vite": "^2.2.3"
   }
 }
