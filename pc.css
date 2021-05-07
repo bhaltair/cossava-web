@@ -15,28 +15,23 @@
   .s-section-1 {
     height: 902.2px;
     background-repeat: no-repeat;
-    background-color: rgb(232, 234, 236);
-    /* background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng84e9158010973cc82c1dbe11430f0ff29cd1e1283b65dd8aab7fc8057281be95)
-      100% no-repeat; */
-    /* background: url("./images/section-1.png") no-repeat; */
-    background-size: 100%;
     position: relative;
     z-index: 10000;
+    background: url("./images/section-1-right.png") right 154px / 803px 862px
+        no-repeat,
+      url("./images/section-1-left.png") left 357px / 378px 394px no-repeat,
+      url("./images/section-1.svg") center / cover no-repeat;
   }
 
-  .s-section-1:after {
+  /* .s-section-1:after {
     content: "";
     display: block;
-    /* background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng27eedb42d62d2c78269d9705def88e0719bd9a0f2f5c7ec5ca6fb9ed4d85864d)
-      100% no-repeat; */
-    background: url("./images/section-1.png") no-repeat;
+    background: url("./images/section-1.svg") center / cover no-repeat;
     width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
-    background-size: 100% 100%;
-    /* display: none; */
-  }
+  } */
 
   .outer5 {
     margin: 0;
@@ -51,6 +46,11 @@
     height: 100%;
   }
 
+  .outer1 {
+    position: relative;
+    z-index: 2000;
+  }
+
   .outer2 {
     position: fixed;
     top: 0;
@@ -61,10 +61,14 @@
     box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.06);
     width: auto;
     margin-left: 0;
+
+    background-color: #ffffff;
   }
 
   .outer2 .container {
     background: url("./images/logo-white.png") left center / 209px 43px
+      no-repeat;
+    background: url("./images/logo-black.png") left center / 209px 43px
       no-repeat;
   }
 
@@ -121,11 +125,12 @@
   .nav ul li a {
     color: rgba(237, 237, 237, 0.5);
     text-decoration: none;
+    color: rgba(34, 34, 34, 1);
   }
 
-  .nav ul li.active a {
+  /* .nav ul li.active a {
     color: #ffffff;
-  }
+  } */
 
   .nav ul li.active::after {
     content: "";

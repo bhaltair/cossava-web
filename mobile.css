@@ -19,7 +19,7 @@
   }
   .s-section-1 {
     height: 410px;
-    background: url("./images/mobile/bg.png") 50% 50% / cover no-repeat;
+    background: url("./images/mobile/bg.jpg") 50% 50% / cover no-repeat;
     position: relative;
     margin-top: 50px;
   }
@@ -31,7 +31,7 @@
     bottom: 0;
     z-index: 1000;
     /* height: calc(100vh - 50px); */
-    background: rgba(0, 0, 0, .93);
+    background: rgba(0, 0, 0, 0.93);
     text-align: center;
   }
 
@@ -48,7 +48,7 @@
     font-size: 4.8vw;
     font-family: SFProDisplay-Medium, SFProDisplay;
     font-weight: 500;
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 19.7333vw;
     margin-top: 70px;
   }
@@ -57,7 +57,7 @@
     text-decoration: none;
     color: rgba(237, 237, 237, 0.5);
     -webkit-appearance: none;
-    outline:none;
+    outline: none;
   }
 
   .nav ul li a:active {
@@ -77,7 +77,7 @@
   }
 
   .nav ul li.active::after {
-    content: '';
+    content: "";
     display: block;
     width: 9.4667vw;
     height: 3px;
@@ -306,6 +306,7 @@
   .mission {
     display: flex;
     justify-content: space-around;
+    margin-top: 28px;
   }
 
   .mission > div {
@@ -336,6 +337,7 @@
     line-height: 14px;
     margin-top: 90px;
     word-break: break-all;
+    text-align: center;
   }
 
   .s-section-2 {
@@ -349,7 +351,7 @@
   }
 
   .s-section-3 h3 {
-    width: 88.8vw;
+    /* width: 88.8vw; */
     margin: 0 auto;
     height: 46px;
     font-size: 5.0667vw;
@@ -360,10 +362,12 @@
     line-height: 23px;
     margin-top: 100px;
 
-    display: -webkit-box;
+    /* display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-    overflow: hidden;
+    overflow: hidden; */
+
+    text-align: center;
   }
 
   .s-section-3 .container > div {
@@ -471,12 +475,57 @@
   }
 
   .s-section-6 .s-section-6-bd {
+    /* display: none; */
+  }
+
+  .s-section-6-left img {
     display: none;
+  }
+
+  .s-section-6-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 437px;
+  }
+
+  .s-section-6-right p {
+    height: 38px;
+    font-size: 6.4vw;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+
+  .s-section-6-right .column {
+    height: 81px;
+    width: 93.8667vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: url("./images/mobile/issue-1.png") center / contain no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding-left: 14.9333vw;
+    padding-right: 2.9333vw;
+
+    font-size: 3.4667vw;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 16px;
+  }
+
+  .s-section-6-right .column-2 {
+    background-image: url("./images/mobile/issue-2.png");
   }
 
   .s-section-6 {
     height: 728px;
-    background: url("./images/mobile/s-section-6.png") center / cover no-repeat;
+    background: url("./images/mobile/s-section-6.png") center 122px / 275px
+        289px no-repeat,
+      url("./images/mobile/s-section-6-bg.png") center / 260.8vw 728px no-repeat;
     position: relative;
   }
 
@@ -680,4 +729,3 @@
 /* 平板之类的宽度 1024 以下设备 */
 @media only screen and (min-width: 321px) and (max-width: 1024px) {
 }
-
