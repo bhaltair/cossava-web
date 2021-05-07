@@ -1,7 +1,7 @@
 var COS = require("cos-nodejs-sdk-v5");
 var fs = require("fs");
 var path = require("path");
-require('dotenv').config()
+require("dotenv").config();
 
 // 读环境变量
 var cos = new COS({
@@ -21,7 +21,7 @@ async function uploadFile(files) {
         files: files.map((file) => {
           return {
             ...config,
-            Key: file.replace('dist', ''),
+            Key: file.replace("dist", ""),
             FilePath: file,
           };
         }),
@@ -37,9 +37,9 @@ async function uploadFile(files) {
       },
       function (err, data) {
         if (err) {
-            reject()
+          reject();
         } else {
-            resolve()
+          resolve();
         }
       }
     );
@@ -63,11 +63,11 @@ async function uploadDir(dir) {
     // console.log(pathname);
     arr.push(pathname);
   });
+  console.log(arr);
   try {
     await uploadFile(arr);
-    process.exit()
-  } catch (error) {
-  }
+    process.exit();
+  } catch (error) {}
 }
 
 const filePath = "./dist"; // 本地文件路径

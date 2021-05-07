@@ -8,6 +8,7 @@
     "upload": "node upload/cos.js"
   },
   "devDependencies": {
+    "cos-nodejs-sdk-v5": "^2.9.14",
     "dotenv": "^9.0.0",
     "vite": "^2.2.3"
   }
