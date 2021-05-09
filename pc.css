@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1029px) {
+@media only screen and (min-width: 321px) {
   .page {
     height: auto;
     width: auto;
@@ -143,7 +143,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -30px;
+    bottom: -29px;
   }
 
   .outer2-active .nav ul li a {
@@ -525,11 +525,14 @@
 
   .s-section-8 .flex-row {
     justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: left;
   }
 
   .s-section-8 .flex-row .flex-col {
     flex: 1;
     align-items: center;
+    flex: 0 0 25%;
   }
 
   .s-section-8 .flex-col span:nth-of-type(1) {
@@ -551,13 +554,17 @@
     color: #222222;
     line-height: 21px;
     text-align: center;
-    word-break: break-all;
+    word-break: break-word;
     opacity: 0.8;
   }
 
   .box20 .flex-col span,
   .box19 .flex-col span {
     width: inherit;
+  }
+
+  .s-section-9 {
+    background: url("./images/line.png") bottom / contain no-repeat;
   }
 
   .s-section-9 .bd {
@@ -650,7 +657,7 @@
   .box6,
   .bd1,
   .bd3 {
-    background-size: 147%;
+    background-size: 100%;
     background-position: center;
   }
 
@@ -695,6 +702,20 @@
     background-image: url("./images/3-5.png");
   }
 
+  .box19,
+  .box20 {
+    height: 340px;
+  }
+
+  .box20 {
+    justify-content: left;
+  }
+
+  .group19,
+  .group20 {
+    margin-right: 15px;
+  }
+
   .section11,
   .section12,
   .section13,
@@ -705,30 +726,31 @@
   .group22 {
     background-size: 264px 264px;
     background-position: left top;
+    height: auto;
   }
 
   .section11 {
-    background-image: url("./images/team-2.png");
+    background-image: url("./images/avatar/vincent.png");
   }
   .section12 {
-    background-image: url("./images/team-3.png");
+    background-image: url("./images/avatar/xiaoxiong.png");
   }
   .section13 {
-    background-image: url("./images/team-1.png");
+    background-image: url("./images/avatar/nancy.png");
   }
   .section14 {
-    background-image: url("./images/team-8.png");
+    background-image: url("./images/avatar/charles.png");
   }
   .group19 {
-    background-image: url("./images/team-7.png");
+    background-image: url("./images/avatar/ronnie.png");
   }
   .group20 {
-    background-image: url("./images/team-5.png");
+    background-image: url("./images/avatar/adeyinka.png");
   }
   .group21 {
-    background-image: url("./images/team-6.png");
+    background-image: url("./images/avatar/tongfei.png");
   }
-  .group22 {
+  /* .group22 {
     background-image: url("./images/team-4.png");
-  }
+  } */
 }

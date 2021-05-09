@@ -1,5 +1,5 @@
 /* 手机、小屏设备 */
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 1028px) {
   html,
   body {
     width: 100%;
@@ -33,10 +33,10 @@
     /* height: calc(100vh - 50px); */
     background: rgba(0, 0, 0, 0.93);
     text-align: center;
+    position: fixed;
   }
 
   .nav.show {
-    position: fixed;
     display: block;
   }
 
@@ -129,6 +129,15 @@
     height: 50px;
   }
 
+  .header-logo {
+    width: 28vw;
+    height: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 5.3333vw;
+  }
+
   .outer2-active {
     position: fixed;
     top: 0;
@@ -172,8 +181,9 @@
   .outer2-active + .outer4 {
     background-image: url("./images/mobile/collapse-black.png");
     position: fixed;
-    right: 5.3333vw;
+    right: 6.1333vw;
     top: 6.1333vw;
+    top: 25px;
     z-index: 200;
   }
 
@@ -262,13 +272,8 @@
   .what-is .box8 .bd4 {
     background: url("./images/mobile/creators.png") left 50% /12.8vw 13.8667vw no-repeat;
     padding-left: 16.8vw;
-    word-break: break-all;
+    word-break: break-word;
     margin-bottom: 28px;
-    background-position-x: -2.1333vw;
-
-    background-position-x: -3.1333vw;
-    background-size: 21.4vw;
-    background-position-y: -2.3333vw;
   }
 
   .what-is .box3 .box7 {
@@ -504,7 +509,7 @@
     width: 93.8667vw;
     margin: 0 auto;
     margin-bottom: 10px;
-    background: url("./images/mobile/issue-1.png") center / contain no-repeat;
+    background: url("./images/mobile/issue-1.png") center / 100% no-repeat;
 
     display: flex;
     align-items: center;
@@ -559,10 +564,10 @@
   .s-section-7 .flex-row .flex-col {
     width: 44.5333vw;
     /* height: 278px; */
-    background: #ffffff url("./images/mobile/team-1.png") center top / 167px
+    background: #ffffff url("./images/avatar/vincent.png") center top / 167px
       no-repeat;
     padding-top: 167px;
-    word-break: break-all;
+    word-break: break-word;
     margin-bottom: 10px;
 
     box-shadow: 0px 7px 19px 0px rgba(0, 25, 57, 0.07);
@@ -570,32 +575,32 @@
   }
 
   .s-section-7 .flex-row .flex-col:nth-of-type(2) {
-    background-image: url("./images/mobile/team-2.png");
+    background-image: url("./images/avatar/xiaoxiong.png");
   }
 
   .s-section-7 .flex-row .flex-col:nth-of-type(3) {
-    background-image: url("./images/mobile/team-3.png");
+    background-image: url("./images/avatar/nancy.png");
   }
 
   .s-section-7 .flex-row .flex-col:nth-of-type(4) {
-    background-image: url("./images/mobile/team-4.png");
+    background-image: url("./images/avatar/charles.png");
   }
 
   .s-section-7 .flex-row.box20 .flex-col:nth-of-type(1) {
-    background-image: url("./images/mobile/team-5.png");
+    background-image: url("./images/avatar/ronnie.png");
   }
 
   .s-section-7 .flex-row.box20 .flex-col:nth-of-type(2) {
-    background-image: url("./images/mobile/team-6.png");
+    background-image: url("./images/avatar/adeyinka.png");
   }
 
   .s-section-7 .flex-row.box20 .flex-col:nth-of-type(3) {
-    background-image: url("./images/mobile/team-7.png");
+    background-image: url("./images/avatar/tongfei.png");
   }
 
-  .s-section-7 .flex-row.box20 .flex-col:nth-of-type(4) {
+  /* .s-section-7 .flex-row.box20 .flex-col:nth-of-type(4) {
     background-image: url("./images/mobile/team-8.png");
-  }
+  } */
 
   .s-section-7 .flex-row .flex-col span {
     padding: 0 2.1333vw;
@@ -636,7 +641,7 @@
   .s-section-8 .flex-col {
     width: 43.7333vw;
     align-items: center;
-    word-break: break-all;
+    word-break: break-word;
   }
 
   .s-section-8 .flex-col img {
@@ -652,7 +657,7 @@
     color: #222222;
     line-height: 17px;
     margin-top: 6px;
-    padding: 0 8vw;
+    /* padding: 0 8vw; */
   }
 
   .s-section-8 .flex-col span:nth-of-type(2) {
@@ -665,6 +670,10 @@
     margin-top: 6px;
     padding: 0 4vw;
     text-align: center;
+  }
+
+  .s-section-9 {
+    background: url("./images/line.png") bottom / contain no-repeat;
   }
 
   .s-section-9 .bd {
