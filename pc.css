@@ -243,7 +243,7 @@
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    margin-top: 103px;
+    margin-top: 53px;
   }
 
   .mission > .flex-col {
@@ -318,13 +318,6 @@
     background-size: cover;
   }
 
-  .s-section-5 {
-    height: 1263px;
-    /* background: url("./images/phone.png") no-repeat;
-    background-size: 374px 811px;
-    background-position: center; */
-  }
-
   .s-section-5 .phone {
     position: relative;
     text-align: center;
@@ -336,7 +329,7 @@
   .s-section-5 .phone-bg {
     width: 374px;
     height: 811px;
-    margin-bottom: 196px;
+    margin-bottom: 106px;
   }
 
   .s-section-5 .utility {
@@ -450,7 +443,7 @@
 
   .s-section-6 .s-section-6-right p {
     height: 65px;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 600;
     color: #ffffff;
     line-height: 65px;

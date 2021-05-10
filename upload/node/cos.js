@@ -72,15 +72,14 @@ async function uploadDir(dir) {
 }
 
 async function main() {
-   const filePath = path.resolve(process.cwd(), './dist');
+  //  const filePath = path.resolve(process.cwd(), './dist');
+   const filePath = "./dist";
 
   //  console.log(__filename)
   //  console.log(__dirname)
 
    await uploadDir(filePath, 'dist');
-
-   shell.exec('node upload/refresh.js')
-
+   shell.exec('node upload/node/refresh.js')
    process.exit();
 
 }
