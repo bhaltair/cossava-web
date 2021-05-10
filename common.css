@@ -2,8 +2,8 @@ body * {
   box-sizing: border-box;
 }
 body {
-  font-family: PingFangSC-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma,
-    Arial, PingFang SC-Light, Microsoft YaHei;
+
+  font-family: "SF Pro", "Helvetica", sans-serif;
 }
 * {
   padding: 0;

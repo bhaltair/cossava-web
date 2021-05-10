@@ -13,25 +13,25 @@
   }
 
   .s-section-1 {
+    height: 982.2px;
     height: 902.2px;
     background-repeat: no-repeat;
     position: relative;
     z-index: 10000;
-    background: url("./images/section-1-right.png") right 154px / 803px 862px
+    background: url("./images/section-1-right.png") right 104px / 803px 862px
         no-repeat,
       url("./images/section-1-left.png") left 357px / 378px 394px no-repeat,
       url("./images/section-1.svg") center / cover no-repeat;
   }
 
-  /* .s-section-1:after {
-    content: "";
-    display: block;
-    background: url("./images/section-1.svg") center / cover no-repeat;
-    width: 100%;
+  .header-logo {
+    width: 208px;
+    height: 43px;
+    top: 50%;
+    transform: translateY(-50%);
     position: absolute;
-    top: 0;
-    bottom: 0;
-  } */
+    left: 0px;
+  }
 
   .outer5 {
     margin: 0;
@@ -265,8 +265,6 @@
     position: static;
     text-align: center;
     font-weight: 500;
-    /* font-family: sans-serif; */
-    font-family: inherit;
   }
 
   .mission > div:nth-of-type(1) {
@@ -389,7 +387,6 @@
   .s-section-5 .utility h3 {
     height: 29px;
     font-size: 36px;
-    font-family: Helvetica;
     color: #222222;
     line-height: 29px;
     margin-bottom: 19px;
@@ -399,7 +396,7 @@
     width: 323px;
     height: 109px;
     font-size: 20px;
-    font-family: Helvetica;
+    
     color: #222222;
     line-height: 26px;
   }
@@ -435,7 +432,6 @@
   .s-section-6 .logo span {
     height: 65px;
     font-size: 40px;
-    font-family: PingFangSC-Semibold, PingFang SC;
     font-weight: 600;
     color: #ffffff;
     line-height: 65px;
@@ -445,15 +441,6 @@
     display: flex;
   }
 
-  /* 
-  .s-section-6 .s-section-6-left {
-    background-image: url("./images/section-7-a.png");
-    background-position: left top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 545px;
-    height: 571px;
-  } */
 
   .s-section-6 .s-section-6-right {
     display: flex;
@@ -464,8 +451,6 @@
   .s-section-6 .s-section-6-right p {
     height: 65px;
     font-size: 72px;
-    /* font-size: 36px; */
-    font-family: PingFangSC-Semibold, PingFang SC;
     font-weight: 600;
     color: #ffffff;
     line-height: 65px;
@@ -485,6 +470,7 @@
     display: flex;
     align-items: center;
     padding-left: 97px;
+    padding-right: 10px;
   }
 
   .s-section-6 .s-section-6-right .column-2 {
@@ -498,7 +484,7 @@
   .s-section-6 .s-section-6-right .column span {
     height: 52px;
     font-size: 22px;
-    font-family: Helvetica;
+    
     color: #ffffff;
     line-height: 26px;
     opacity: 0.8;
@@ -535,9 +521,12 @@
     flex: 0 0 25%;
   }
 
+  .s-section-8 .flex-row .flex-col img {
+    border-radius: 50%;
+  }
+
   .s-section-8 .flex-col span:nth-of-type(1) {
     font-size: 20px;
-    font-family: PingFangSC-Semibold, PingFang SC;
     font-weight: 600;
     color: #222222;
     line-height: 28px;
@@ -549,7 +538,6 @@
   .s-section-8 .flex-col span:nth-of-type(2) {
     height: 84px;
     font-size: 15px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #222222;
     line-height: 21px;
@@ -564,7 +552,7 @@
   }
 
   .s-section-9 {
-    background: url("./images/line.png") bottom / contain no-repeat;
+    background: url("./images/line.png") bottom / 100% 10px no-repeat;
   }
 
   .s-section-9 .bd {
@@ -578,7 +566,7 @@
 
   .s-section-9 .bd h6 {
     font-size: 40px;
-    font-family: Helvetica;
+    
     color: #222222;
     line-height: 48px;
     padding-top: 86px;
@@ -598,18 +586,14 @@
     height: 210px;
     width: 546px;
     background: url("./images/section-9-2.png") 50% 50% / cover no-repeat;
-
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 158px;
-
-    /* width: 250px;
-    height: 36px; */
     font-size: 30px;
-    font-family: Helvetica;
     color: #222222;
     line-height: 36px;
     background-position: 43px center;
+    padding-top: 77px;
   }
 
   .s-section-9 .bd ul li:nth-of-type(1) {
@@ -625,14 +609,13 @@
   .s-section-9 p {
     height: 25px;
     font-size: 20px;
-    font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #333333;
     line-height: 25px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .outer3 {
@@ -705,6 +688,7 @@
   .box19,
   .box20 {
     height: 340px;
+    margin-bottom: 30px;
   }
 
   .box20 {
@@ -727,6 +711,9 @@
     background-size: 264px 264px;
     background-position: left top;
     height: auto;
+    box-shadow: 0px 11px 30px 0px rgba(0, 25, 57, 0.07);
+    border-radius: 12px;
+    background-color: #ffffff;
   }
 
   .section11 {

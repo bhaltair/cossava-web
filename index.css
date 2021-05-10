@@ -75,7 +75,7 @@
     overflow-wrap: break-word;
     color: rgba(255, 255, 255, 1);
     font-size: 13px;
-    font-family: PingFangSC-Semibold;
+    
     line-height: 19px;
     text-align: right;
   }
@@ -111,7 +111,7 @@
     overflow-wrap: break-word;
     color: rgba(255, 255, 255, 1);
     font-size: 22px;
-    font-family: PingFangSC-Semibold;
+    
     line-height: 20px;
     text-align: right;
   }
@@ -163,14 +163,14 @@
 
   .info1 {
     font-size: 16px;
-    font-family: PingFangSC-Semibold;
+    
     color: rgba(255, 255, 255, 1);
     line-height: 22px;
   }
 
   .txt3 {
     font-size: 16px;
-    font-family: PingFangSC-Semibold;
+    
     color: rgba(255, 255, 255, 0.5);
     line-height: 22px;
   }
@@ -206,7 +206,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 24px;
-    font-family: PingFangSC-Medium;
+    
     line-height: 35px;
     text-align: left;
   }
@@ -241,8 +241,8 @@
     overflow-wrap: break-word;
     color: rgba(44, 52, 62, 1);
     font-size: 30px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Medium;
+    
+    
     line-height: 43px;
     text-align: left;
     align-self: flex-start;
@@ -255,7 +255,7 @@
     overflow-wrap: break-word;
     color: rgba(111, 119, 129, 1);
     font-size: 22px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 30px;
     text-align: left;
     align-self: center;
@@ -285,8 +285,8 @@
     overflow-wrap: break-word;
     color: rgba(44, 52, 62, 1);
     font-size: 30px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Medium;
+    
+    
     line-height: 43px;
     text-align: left;
     align-self: flex-start;
@@ -299,7 +299,7 @@
     overflow-wrap: break-word;
     color: rgba(111, 119, 129, 1);
     font-size: 22px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 30px;
     text-align: left;
     align-self: center;
@@ -336,8 +336,8 @@
     overflow-wrap: break-word;
     color: rgba(44, 52, 62, 1);
     font-size: 30px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Medium;
+    
+    
     line-height: 43px;
     text-align: left;
     align-self: flex-start;
@@ -350,7 +350,7 @@
     overflow-wrap: break-word;
     color: rgba(111, 119, 129, 1);
     font-size: 22px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 30px;
     text-align: left;
     align-self: center;
@@ -380,8 +380,8 @@
     overflow-wrap: break-word;
     color: rgba(44, 52, 62, 1);
     font-size: 30px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Medium;
+    
+    
     line-height: 43px;
     text-align: left;
     align-self: flex-start;
@@ -394,7 +394,7 @@
     overflow-wrap: break-word;
     color: rgba(111, 119, 129, 1);
     font-size: 22px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 30px;
     text-align: left;
     align-self: center;
@@ -408,7 +408,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -479,7 +479,7 @@
     overflow-wrap: break-word;
     color: rgba(14, 143, 83, 1);
     font-size: 24px;
-    font-family: AlibabaPuHuiTiM;
+    
     line-height: 33px;
     text-align: right;
   }
@@ -515,7 +515,7 @@
     overflow-wrap: break-word;
     color: rgba(14, 143, 83, 1);
     font-size: 24px;
-    font-family: AlibabaPuHuiTiM;
+    
     line-height: 33px;
     text-align: right;
   }
@@ -551,7 +551,7 @@
     overflow-wrap: break-word;
     color: rgba(14, 143, 83, 1);
     font-size: 24px;
-    font-family: AlibabaPuHuiTiM;
+    
     line-height: 33px;
     text-align: right;
   }
@@ -587,7 +587,7 @@
     overflow-wrap: break-word;
     color: rgba(14, 143, 83, 1);
     font-size: 24px;
-    font-family: AlibabaPuHuiTiM;
+    
     line-height: 33px;
     text-align: right;
   }
@@ -623,7 +623,7 @@
     overflow-wrap: break-word;
     color: rgba(14, 143, 83, 1);
     font-size: 24px;
-    font-family: AlibabaPuHuiTiM;
+    
     line-height: 33px;
     text-align: right;
   }
@@ -689,7 +689,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: center;
@@ -718,7 +718,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: center;
@@ -747,7 +747,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: center;
@@ -768,7 +768,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -1010,7 +1010,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Medium;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1070,7 +1070,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Medium;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1130,7 +1130,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Medium;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1146,7 +1146,7 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 10px;
     letter-spacing: -0.1730560064315796px;
-    font-family: Avenir-Book;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1190,7 +1190,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Medium;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1206,7 +1206,7 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 10px;
     letter-spacing: -0.1730560064315796px;
-    font-family: Avenir-Book;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1240,7 +1240,7 @@
     color: rgba(36, 42, 55, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Book;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1290,7 +1290,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     letter-spacing: -0.19968000054359436px;
-    font-family: Avenir-Book;
+    
     line-height: 16px;
     text-align: left;
   }
@@ -1306,7 +1306,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     letter-spacing: -0.34112000465393066px;
-    font-family: Avenir-Heavy;
+    
     line-height: 18px;
     text-align: left;
   }
@@ -1405,7 +1405,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: left;
@@ -1434,7 +1434,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: left;
@@ -1463,7 +1463,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.7);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 26px;
     text-align: left;
@@ -1609,7 +1609,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 40px;
     letter-spacing: -1.4999998807907104px;
-    font-family: PingFangSC-Semibold;
+    
     line-height: 64px;
     text-align: right;
   }
@@ -1625,7 +1625,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 72px;
     letter-spacing: -2.6999998092651367px;
-    font-family: PingFangSC-Semibold;
+    
     line-height: 64px;
     text-align: left;
   }
@@ -1637,7 +1637,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -1683,7 +1683,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -1739,7 +1739,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -1795,7 +1795,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -1851,7 +1851,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -1914,7 +1914,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -1970,7 +1970,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -2026,7 +2026,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -2082,7 +2082,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 24px;
     text-align: left;
@@ -2125,7 +2125,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -2171,8 +2171,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -2187,7 +2187,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -2211,8 +2211,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -2227,7 +2227,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -2251,8 +2251,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -2267,7 +2267,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -2291,8 +2291,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -2307,7 +2307,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -2319,7 +2319,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -2411,7 +2411,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 26px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 25px;
     text-align: left;
@@ -2427,7 +2427,7 @@
     overflow-wrap: break-word;
     color: rgba(67, 72, 76, 1);
     font-size: 16px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 25px;
     text-align: left;
@@ -2443,7 +2443,7 @@
     overflow-wrap: break-word;
     color: rgba(153, 153, 153, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Regular;
     line-height: 25px;
     text-align: left;
@@ -2459,7 +2459,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Bold;
     line-height: 25px;
     text-align: left;
@@ -2530,7 +2530,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 26px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 25px;
     text-align: left;
@@ -2546,7 +2546,7 @@
     overflow-wrap: break-word;
     color: rgba(67, 72, 76, 1);
     font-size: 16px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 25px;
     text-align: left;
@@ -2562,7 +2562,7 @@
     overflow-wrap: break-word;
     color: rgba(153, 153, 153, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Regular;
     line-height: 25px;
     text-align: left;
@@ -2578,7 +2578,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Bold;
     line-height: 25px;
     text-align: left;
@@ -2658,7 +2658,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 26px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 25px;
     text-align: left;
@@ -2674,7 +2674,7 @@
     overflow-wrap: break-word;
     color: rgba(67, 72, 76, 1);
     font-size: 16px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Regular;
     line-height: 25px;
     text-align: left;
@@ -2690,7 +2690,7 @@
     overflow-wrap: break-word;
     color: rgba(153, 153, 153, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Regular;
     line-height: 25px;
     text-align: left;
@@ -2706,7 +2706,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 14px;
-    text-transform: uppercase;
+    
     font-family: SFProDisplay-Bold;
     line-height: 25px;
     text-align: left;
@@ -2719,7 +2719,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -2759,7 +2759,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 40px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Semibold;
     line-height: 48px;
     text-align: right;
@@ -2793,8 +2793,8 @@
     overflow-wrap: break-word;
     color: rgba(51, 51, 51, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Regular;
+    
+    
     line-height: 25px;
     text-align: right;
   }
@@ -2869,7 +2869,7 @@
     overflow-wrap: break-word;
     color: rgba(0, 0, 0, 1);
     font-size: 38px;
-    text-transform: uppercase;
+    
     font-family: SFPro-Bold;
     line-height: 45px;
     text-align: right;
@@ -3021,8 +3021,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -3037,7 +3037,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -3063,8 +3063,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -3079,7 +3079,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -3105,8 +3105,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -3121,7 +3121,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
@@ -3147,8 +3147,8 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 1);
     font-size: 20px;
-    text-transform: uppercase;
-    font-family: PingFangSC-Semibold;
+    
+    
     line-height: 28px;
     text-align: right;
   }
@@ -3163,7 +3163,7 @@
     overflow-wrap: break-word;
     color: rgba(34, 34, 34, 0.8);
     font-size: 15px;
-    font-family: PingFangSC-Regular;
+    
     line-height: 21px;
     text-align: right;
   }
