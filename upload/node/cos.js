@@ -1,6 +1,7 @@
 var COS = require("cos-nodejs-sdk-v5");
 var fs = require("fs");
 var path = require("path");
+var shell = require('shelljs');
 require("dotenv").config();
 
 // 读环境变量
@@ -13,15 +14,14 @@ var config = {
   Bucket: process.env.Bucket,
   Region: process.env.Region,
 };
-
-async function uploadFile(files) {
+async function uploadFile(files, exclude = "dist") {
   return new Promise((resolve, reject) => {
     cos.uploadFiles(
       {
         files: files.map((file) => {
           return {
             ...config,
-            Key: file.replace("dist", ""),
+            Key: file.replace(exclude, ""),
             FilePath: file,
           };
         }),
@@ -66,10 +66,24 @@ async function uploadDir(dir) {
   console.log(arr);
   try {
     await uploadFile(arr);
-    process.exit();
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+  }
 }
 
-const filePath = "./dist"; // 本地文件路径
+async function main() {
+   const filePath = path.resolve(process.cwd(), './dist');
 
-uploadDir(filePath);
+  //  console.log(__filename)
+  //  console.log(__dirname)
+
+   await uploadDir(filePath, 'dist');
+
+   shell.exec('node upload/refresh.js')
+
+   process.exit();
+
+}
+
+main()
+

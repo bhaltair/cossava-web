@@ -21,7 +21,8 @@ $(document).ready(function () {
 
   $(".nav li").click(function () {
     if (width < 1029) {
-      $(".nav").css("display", "none");
+      // $(".nav").css("display", "none");
+      $(".nav").slideToggle("slow");
     }
 
     $(this).siblings("li").removeClass("active"); // 删除其他兄弟元素的样式

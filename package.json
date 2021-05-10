@@ -5,11 +5,13 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "upload": "node upload/cos.js"
+    "upload": "node upload/node/cos.js"
   },
   "devDependencies": {
     "cos-nodejs-sdk-v5": "^2.9.14",
     "dotenv": "^9.0.0",
+    "shelljs": "^0.8.4",
+    "tencentcloud-sdk-nodejs": "^4.0.115",
     "vite": "^2.2.3"
   }
 }
