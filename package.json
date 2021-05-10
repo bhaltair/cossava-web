@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "upload": "node upload/node/cos.js"
+    "upload": "npm run build && node upload/node/cos.js"
   },
   "devDependencies": {
     "cos-nodejs-sdk-v5": "^2.9.14",
