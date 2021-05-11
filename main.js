@@ -7,11 +7,7 @@ $(document).ready(function () {
   }
 
   $(window).scroll(function () {
-    console.log($(document).scrollTop());
-  });
-
-  window.addEventListener("scroll", function () {
-    let t = $("body, html").scrollTop();
+    var t = $(document).scrollTop();
 
     if (t > 0) {
       $(".outer2").addClass("outer2-active");
@@ -30,18 +26,15 @@ $(document).ready(function () {
       $(".nav").slideToggle("slow");
     }
 
-    $(this).siblings("li").removeClass("active"); // 删除其他兄弟元素的样式
+    $(this).siblings("li").removeClass("active");
+    $(this).addClass("active"); 
 
-    $(this).addClass("active"); // 添加当前元素的样式
-  });
-
-  $(".scroll").on("click", function () {
-    //绑定点击事件
-    var tops = $(this).attr("href"); //获取对象
+    var tops = $(this).find('a').attr("href"); 
     $("html,body")
       .stop()
-      .animate({ scrollTop: $(tops).offset().top }, 800); //动画出炉
+      .animate({ scrollTop: $(tops).offset().top }, 800); 
   });
+
 
   $(".header-logo").click(function () {
     $("body, html").stop().animate(
