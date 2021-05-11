@@ -5,8 +5,12 @@ $(document).ready(function () {
     $("nav").css("display", "show");
   }
 
+  $( window ).scroll(function() {
+    console.log($(document).scrollTop())
+  });
+
   window.addEventListener("scroll", function () {
-    let t = $("body, html").scrollTop(); // 目前监听的是整个body的滚动条距离
+    let t = $("body, html").scrollTop(); 
 
     if (t > 0) {
       $(".outer2").addClass("outer2-active");

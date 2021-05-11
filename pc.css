@@ -21,7 +21,7 @@
     background: url("./images/section-1-right.png") right 104px / 803px 862px
         no-repeat,
       url("./images/section-1-left.png") left 357px / 378px 394px no-repeat,
-      url("./images/section-1.svg") center / cover no-repeat;
+      url("./images/section-1.png") center / cover no-repeat;
   }
 
   .header-logo {
