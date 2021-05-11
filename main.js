@@ -1,16 +1,17 @@
 $(document).ready(function () {
+
   var width = window.innerWidth;
 
   if (width > 1029) {
     $("nav").css("display", "show");
   }
 
-  $( window ).scroll(function() {
-    console.log($(document).scrollTop())
+  $(window).scroll(function () {
+    console.log($(document).scrollTop());
   });
 
   window.addEventListener("scroll", function () {
-    let t = $("body, html").scrollTop(); 
+    let t = $("body, html").scrollTop();
 
     if (t > 0) {
       $(".outer2").addClass("outer2-active");
