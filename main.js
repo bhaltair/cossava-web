@@ -6,15 +6,15 @@ $(document).ready(function () {
     $("nav").css("display", "show");
   }
 
-  $(window).scroll(function () {
-    var t = $(document).scrollTop();
+  // $(window).scroll(function () {
+  //   var t = $(document).scrollTop();
 
-    if (t > 0) {
-      $(".outer2").addClass("outer2-active");
-    } else {
-      $(".outer2").removeClass("outer2-active");
-    }
-  });
+  //   if (t > 0) {
+  //     $(".outer2").addClass("outer2-active");
+  //   } else {
+  //     $(".outer2").removeClass("outer2-active");
+  //   }
+  // });
 
   $(".outer4").click(function () {
     $(".nav").slideToggle("slow");
