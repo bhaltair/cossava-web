@@ -12,7 +12,7 @@
     "dotenv": "^9.0.0",
     "postcss-px-to-viewport": "^1.1.1",
     "sass": "^1.32.12",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "tencentcloud-sdk-nodejs": "^4.0.115",
     "vite": "^2.2.3"
   }
